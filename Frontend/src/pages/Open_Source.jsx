@@ -6,11 +6,9 @@ import { faEllipsisH, faEllipsisV } from "@fortawesome/free-solid-svg-icons";
 
 const Open_Source = () => {
   return (
-    <div className="h-[50vh] w-[100vw] flex flex-col justify-center items-center gap-10">
+    <div className="h-[70vh] w-[100vw] flex flex-col justify-center items-center gap-10">
       {/* Heading */}
-      <NavLink to="/open-source">
-        <h1 className=" text-xl text-blue-700 ">OPEN SOURCE </h1>
-      </NavLink>
+
       {/* Open-source */}
       <div className="grid grid-cols-3 gap-4 p-6">
         {/* open-source - 1 */}

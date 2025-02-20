@@ -4,10 +4,6 @@ import { NavLink } from "react-router-dom";
 const Blog = () => {
   return (
     <div className="h-[90vh] w-[100vw] flex  flex-col justify-center items-center p-5 gap-9">
-      {/* Heading */}
-      <NavLink to="/blog">
-        <h1 className="text-lg text-blue-800">BLOG</h1>
-      </NavLink>
       {/* row -1 */}
       <div className=" grid grid-cols-2 gap-8">
         {/* Blog -1 */}

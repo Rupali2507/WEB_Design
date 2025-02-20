@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Services = () => {
   return (
-    <div className="p-5  ">
+    <div className="p-5 pt-30 ">
       {/* Heading */}
       <NavLink to="/services">
         <div className="flex  justify-center text-xl text-blue-900  ">
