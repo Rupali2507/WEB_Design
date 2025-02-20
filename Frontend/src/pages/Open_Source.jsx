@@ -12,40 +12,41 @@ const Open_Source = () => {
       {/* Open-source */}
       <div className="grid grid-cols-3 gap-4 p-6">
         {/* open-source - 1 */}
-        <div className="flex gap-3">
+        <div className="flex gap-3 p-8 shadow-2xl ">
           <div>
             <FontAwesomeIcon icon={faCode} size="xl" />
           </div>
           <div className="">
             <div>Swap</div>
             <div className="text-xs text-gray-500">
-              Currency exchange rates library for PHP.
+              Currency exchange <br />
+              rates library for PHP.
             </div>
             <div className="text-sm pt-5 text-gray-500">* 645 V 324</div>
           </div>
         </div>
         {/* open-source - 2 */}
-        <div className="flex gap-3">
-          <div>
+        <div className="flex gap-3 bg-black text-white p-8 aspect-auto shadow-2xl ">
+          <div className=" ">
             <FontAwesomeIcon icon={faCode} size="xl" />
           </div>
           <div className="">
             <div>Swap</div>
             <div className="text-xs text-gray-500">
-              Currency exchange rates library for PHP.
+              Currency exchange <br /> rates library for PHP.
             </div>
             <div className="text-sm pt-5 text-gray-500 ">* 645 V 324</div>
           </div>
         </div>
         {/* open-source - 1 */}
-        <div className="flex gap-3">
+        <div className="flex gap-3 shadow-2xl p-8">
           <div>
             <FontAwesomeIcon icon={faCode} size="xl" />
           </div>
           <div className="">
             <div>Swap</div>
             <div className="text-xs text-gray-500">
-              Currency exchange rates library for PHP.
+              Currency exchange <br /> rates library for PHP.
             </div>
             <div className="text-sm pt-5 text-gray-500">* 645 V 324</div>
           </div>
