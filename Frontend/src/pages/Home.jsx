@@ -7,6 +7,8 @@ import About from "./About";
 import Services from "./Services";
 import Blog from "./Blog";
 import Open_Source from "./Open_Source";
+import Footer from "./Footer";
+import Newsletter from "./Newsletter";
 
 const Home = () => {
   return (
@@ -142,6 +144,10 @@ const Home = () => {
       <Blog />
       {/* OPEN SOURCE */}
       <Open_Source />
+      {/* News Letter */}
+      <Newsletter />
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
