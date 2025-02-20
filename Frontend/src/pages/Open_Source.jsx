@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faStar } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
-import { faEllipsisH, faEllipsisV } from "@fortawesome/free-solid-svg-icons";
+import { faEllipsisH, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
 const Open_Source = () => {
   return (
@@ -22,7 +22,14 @@ const Open_Source = () => {
               Currency exchange <br />
               rates library for PHP.
             </div>
-            <div className="text-sm pt-5 text-gray-500">* 645 V 324</div>
+            <div className="text-sm pt-5 text-gray-500 flex gap-4">
+              <div>
+                <FontAwesomeIcon icon={faStar} size="xs" /> 645
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faCodeBranch} size="xs" /> 324
+              </div>
+            </div>
           </div>
         </div>
         {/* open-source - 2 */}
@@ -35,10 +42,17 @@ const Open_Source = () => {
             <div className="text-xs text-gray-500">
               Currency exchange <br /> rates library for PHP.
             </div>
-            <div className="text-sm pt-5 text-gray-500 ">* 645 V 324</div>
+            <div className="text-sm pt-5  flex gap-4">
+              <div>
+                <FontAwesomeIcon icon={faStar} size="xs" /> 645
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faCodeBranch} size="xs" /> 324
+              </div>
+            </div>
           </div>
         </div>
-        {/* open-source - 1 */}
+        {/* open-source - 3 */}
         <div className="flex gap-3 shadow-2xl p-8">
           <div>
             <FontAwesomeIcon icon={faCode} size="xl" />
@@ -48,7 +62,14 @@ const Open_Source = () => {
             <div className="text-xs text-gray-500">
               Currency exchange <br /> rates library for PHP.
             </div>
-            <div className="text-sm pt-5 text-gray-500">* 645 V 324</div>
+            <div className="text-sm pt-5 text-gray-500 flex gap-4">
+              <div>
+                <FontAwesomeIcon icon={faStar} size="xs" /> 645
+              </div>
+              <div>
+                <FontAwesomeIcon icon={faCodeBranch} size="xs" /> 324
+              </div>
+            </div>
           </div>
         </div>
       </div>
