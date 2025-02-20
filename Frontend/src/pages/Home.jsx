@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import About from "./About";
 import Services from "./Services";
 import Blog from "./Blog";
+import Open_Source from "./Open_Source";
 
 const Home = () => {
   return (
@@ -139,6 +140,8 @@ const Home = () => {
       <Services />
       {/* BLOG */}
       <Blog />
+      {/* OPEN SOURCE */}
+      <Open_Source />
     </div>
   );
 };
