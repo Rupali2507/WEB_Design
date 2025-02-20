@@ -5,10 +5,11 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import About from "./About";
 import Services from "./Services";
+import Blog from "./Blog";
 
 const Home = () => {
   return (
-    <div className="">
+    <div className=" flex flex-col ">
       {/* HERO */}
       <div className="flex justify-between w-[100vw]">
         {/* Middle */}
@@ -136,6 +137,8 @@ const Home = () => {
       <About />
       {/* SERVICES */}
       <Services />
+      {/* BLOG */}
+      <Blog />
     </div>
   );
 };
