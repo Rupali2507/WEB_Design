@@ -6,10 +6,14 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import Blog from "./pages/Blog";
 import Open_Source from "./pages/Open_Source";
+import Navbar from "./components/Navbar";
+import Newsletter from "./pages/Newsletter";
+import Footer from "./pages/Footer";
 
 const App = () => {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -17,6 +21,8 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/open-source" element={<Open_Source />} />
       </Routes>
+      <Newsletter />
+      <Footer />
     </div>
   );
 };
