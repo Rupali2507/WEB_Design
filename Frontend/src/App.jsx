@@ -17,11 +17,11 @@ const App = () => {
       {/* <Home /> */}
 
       <Routes>
-        <Route path="./" element={<Home />} />
-        <Route path="./about" element={<About />} />
-        <Route path="./services" element={<Services />} />
-        <Route path="./blog" element={<Blog />} />
-        <Route path="./open-source" element={<Open_Source />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/open-source" element={<Open_Source />} />
       </Routes>
 
       <Newsletter />
