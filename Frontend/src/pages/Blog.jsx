@@ -3,10 +3,12 @@ import { NavLink } from "react-router-dom";
 
 const Blog = () => {
   return (
-    <div className=" w-full pt-30 flex gap-10   flex-col">
+    <div className=" w-full pt-30 flex  flex-col">
       {/* Heading */}
       <NavLink to="/blog">
-        <div className="flex  justify-center text-xl text-blue-900  ">BLOG</div>
+        <div className="flex  justify-center text-xl text-blue-900 mb-10 ">
+          BLOG
+        </div>
       </NavLink>
       <div className="flex flex-col sm:flex-row w-full items-center  ">
         {/*Blog -1 */}
