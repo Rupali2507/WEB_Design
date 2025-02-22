@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Newsletter = () => {
   return (
-    <div className="flex w-[100vw] h-[30vh]  items-center justify-center gap-[25vw] lg:gap-[20vw] ">
+    <div className=" flex flex-col text-center sm:text-start  w-[100vw] h-[30vh]  items-center justify-center gap-4 sm:gap-[25vw] sm:flex-row  lg:gap-[20vw] ">
       <div>
         <div className="text-xl text-blue-600">
           Need help developing your application?

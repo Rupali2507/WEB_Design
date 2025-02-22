@@ -1,16 +1,25 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faStar } from "@fortawesome/free-solid-svg-icons";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { faEllipsisH, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
 
 const Open_Source = () => {
+  const location = useLocation();
   return (
-    <div className="h-[70vh] w-[100vw] flex flex-col justify-center items-center gap-10">
+    <div
+      className={`w-[100vw] flex flex-col  justify-center items-center gap-10 ${
+        location.pathname === "/open-source" ? "pt-25" : "pt-15"
+      }`}
+    >
       {/* Heading */}
-
+      <NavLink to="/open-source">
+        <div className="flex  justify-center text-xl text-blue-900  ">
+          OPEN SOURCE
+        </div>
+      </NavLink>
       {/* Open-source */}
-      <div className="grid grid-cols-3 gap-4 p-6">
+      <div className="grid grid-cols-1 sm:grid-cols-3  gap-4 p-6">
         {/* open-source - 1 */}
         <div className="flex gap-3 p-8 shadow-2xl ">
           <div>

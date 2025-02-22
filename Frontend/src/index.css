@@ -4,3 +4,7 @@
     clip-path: polygon(0% 25%, 100% 50%, 100% 100%, 0% 55%);
   }
 }
+body,
+html {
+  overflow-x: hidden;
+}

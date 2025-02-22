@@ -1,20 +1,29 @@
 import React from "react";
 import { assets } from "../assets/assets";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const About = () => {
+  const location = useLocation();
   return (
-    <div className="flex h-[90vh]">
+    <div
+      className={`flex flex-col  sm:flex-row  gap-15 ${
+        location.pathname === "/about" ? "pt-30" : ""
+      }`}
+    >
       {/* Left */}
-      <div className="w-1/2 flex justify-end items-center ">
-        <img className="w-[30vw] lg:w-[25vw]" src={assets.about} alt="" />
+      <div className=" w-full sm:w-1/2 flex justify-center sm:justify-end items-center ">
+        <img
+          className="w-3/4 sm:w-[30vw] lg:w-[25vw]"
+          src={assets.about}
+          alt=""
+        />
       </div>
       {/* Right */}
-      <div className="pl-10 sm:w-1/2 lg:w-1/4 flex gap-7 flex-col justify-center">
+      <div className="m-5  sm:w-1/2 lg:w-1/4 flex gap-15 flex-col justify-center sm:justify-start items-center  sm:items-start">
         <NavLink to="/about">
           <h1 className="text-blue-900  text-xl">ABOUT ME</h1>
         </NavLink>
-        <div className="text-xs ">
+        <div className="text-xs px-4 sm:px-0 ">
           I arn valuelorem ipsurn dolor sit amel, eonsecteluer adipiscing elit.
           Aenean comrnodo ligula eget dolor. Aenean massa. Curn sociis natoque
           penatibus et rnagnis dis parturient rnontes, naseetur ridiculus mus.
